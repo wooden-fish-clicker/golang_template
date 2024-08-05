@@ -2,8 +2,9 @@ package redis
 
 import (
 	"context"
-	"template/configs"
-	"template/pkg/logger"
+
+	"github.com/wooden-fish-clicker/golang_template/configs"
+	"github.com/wooden-fish-clicker/golang_template/pkg/logger"
 
 	"github.com/go-redis/redis/v8"
 )

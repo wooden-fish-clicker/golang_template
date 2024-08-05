@@ -1,4 +1,4 @@
-module template
+module github.com/wooden-fish-clicker/golang_template
 
 go 1.21.6
 

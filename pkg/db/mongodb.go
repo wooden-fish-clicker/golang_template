@@ -3,9 +3,10 @@ package db
 import (
 	"context"
 	"fmt"
-	"template/configs"
-	"template/pkg/logger"
 	"time"
+
+	"github.com/wooden-fish-clicker/golang_template/configs"
+	"github.com/wooden-fish-clicker/golang_template/pkg/logger"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

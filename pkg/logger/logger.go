@@ -7,9 +7,10 @@ import (
 	"path/filepath"
 	"runtime"
 	"sync"
-	"template/configs"
-	"template/pkg/file"
 	"time"
+
+	"github.com/wooden-fish-clicker/golang_template/configs"
+	"github.com/wooden-fish-clicker/golang_template/pkg/file"
 )
 
 type Level int

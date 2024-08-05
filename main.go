@@ -1,10 +1,10 @@
 package main
 
 import (
-	"template/configs"
-	"template/pkg/db"
-	"template/pkg/logger"
-	"template/pkg/redis"
+	"github.com/wooden-fish-clicker/golang_template/configs"
+	"github.com/wooden-fish-clicker/golang_template/pkg/db"
+	"github.com/wooden-fish-clicker/golang_template/pkg/logger"
+	"github.com/wooden-fish-clicker/golang_template/pkg/redis"
 )
 
 func init() {
