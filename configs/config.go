@@ -9,9 +9,9 @@ import (
 )
 
 type App struct {
-	PrefixUrl string
-
-	AppName string
+	PrefixUrl     string
+	ServerAddress string
+	AppName       string
 
 	LogSavePath string
 	LogSaveName string
@@ -89,6 +89,7 @@ func Setup() {
 
 func applyEnvVariables() {
 	C.App.PrefixUrl = viper.GetString("PREFIX_URL")
+	C.App.ServerAddress = viper.GetString("SERVER_ADDRESS")
 	C.App.AppName = viper.GetString("APP_NAME")
 	C.Server.RunMode = viper.GetString("RUN_MODE")
 	C.Server.HttpPort = viper.GetInt("HTTP_PORT")

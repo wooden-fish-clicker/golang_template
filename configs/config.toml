@@ -1,6 +1,6 @@
 [App]
     PrefixUrl = "http://127.0.0.1:8080"
-
+    SERVER_ADDRESS = "127.0.0.1:8080"
     AppName = "gin-example"
 
     LogSavePath = "logs/"
@@ -32,7 +32,6 @@
   Addr = "127.0.0.1:6379"
   DB = "0"
   Password = ""
-
 
 # [mail]
 #   host = "smtp.163.com"
